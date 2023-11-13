@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1><img src="images/logo.svg" alt="ロゴ"></h1>
+    <nav class="navigation">
+      <ul>
+        <li><a href="">About</a></li>
+        <li><a href="">Works</a></li>
+        <li><a href="">News</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href=""><img src="images/icon-instagram.png" alt="インスタのロゴ"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="visual">
+      <img src="images/mainvisual-pc.jpg" alt="メインロゴ">
+    </div>
+
+    <section class="about">
+      <h2>About</h2>
+      <p>Xxxxx Ashley</p>
+      <p>2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031 <br>
+        tel: 000-0000-0000 <br>
+        url: www.xxxxxx.jp <br>
+        mail: xxx@xxxxxx.jp</p>
+        <p>プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストスト<br>
+           テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
+           テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+    </section>
+
+    <section class="work">
+      <h2>Works</h2>
+      <!-- <ul class="works">
+        <div class="works1">
+          <li><img src="images/works1.jpg" alt=""></li>
+          <li><img src="images/works2.jpg" alt=""></li>
+          
+        </div>
+        <div class="works2">
+          <div class="works3">
+          <li><img src="images/works3.jpg" alt=""></li>
+          <li><img src="images/works4.jpg" alt=""></li>
+        </div>
+        <div class="works4">
+          <li><img src="images/works5.jpg" alt=""></li>
+          <li><img src="images/works6.jpg" alt=""></li>
+        </div>
+        </div>
+      </ul> -->
+      <ul class="works">
+        <li><img src="images/works1.jpg" alt="テキストテキストテキスト"></li>
+        <li><img src="images/works2.jpg" alt="テキストテキストテキスト"></li>
+        <li><img src="images/works3.jpg" alt="テキストテキストテキスト"></li>
+        <li><img src="images/works4.jpg" alt="テキストテキストテキスト"></li>
+        <li><img src="images/works5.jpg" alt="テキストテキストテキスト"></li>
+        <li><img src="images/works6.jpg" alt="テキストテキストテキスト"></li>
+      </ul>
+    </section>
+
+    <section class="news">
+      <h2>News</h2>
+      <!-- <dl>
+        <dt>2020.XX.XX</dt>
+        <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</dd>
+        <dt>2020.XX.XX</dt>
+        <dd>ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</dd>
+        <dt>2019.XX.XX</dt> 
+        <dd>【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+        <dt>2019.XX.XX</dt>
+        <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</dd>
+        <dt>2019.XX.XX</dt>
+        <dd>【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+      </dl> -->
+      <dl>
+        <dt>2020.XX.XX</dt>
+        <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</dd>
+        <dt>2020.XX.XX</dt>
+        <dd>ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</dd>
+        <dt>2019.XX.XX</dt>
+        <dd>【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+        <dt>2019.XX.XX</dt>
+        <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</dd>
+        <dt>2019.XX.XX</dt>
+        <dd>【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+      </dl>
+    </section>
+
+    <section class="contact" id="contact">
+      <!-- <h2>Contact</h2>
+      <form action="#" method="POST">
+        <dl>
+          <dt>NAME</dt>
+          <dd><input type="text" name="your-name"></dd>
+          <dt>E-mail</dt>
+          <dd><input type="email"></dd>
+          <dt>MESSAGE</dt>
+          <dd><textarea name="message" id="message-text" cols="30" rows="10"></textarea></dd>
+        </dl>
+        <input type="submit" type="submit" value="送信">
+      </form> -->
+      <h2 class="sec-title">Contact</h2>
+        <form action="#" method="post">
+          <dl>
+            <dt><label for="name">NAME</label></dt>
+            <dd><input type="text" id="name" name="your-name"></dd>
+            <dt><label for="email">E-mail</label></dt>
+            <dd><input type="email" id="email" name="your-email"></dd>
+            <dt><label for="message">MESSAGE</label></dt>
+            <dd><textarea id="message" name="your-message"></textarea></dd>
+          </dl>
+          <div class="button"><input type="submit" value="送信"></div>
+        </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy;2020 My Work</p>
+  </footer>
+</body>
+</html>

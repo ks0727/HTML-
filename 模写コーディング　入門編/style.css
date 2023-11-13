@@ -1,0 +1,153 @@
+@charset "utf-8";
+a{
+  text-decoration: none;
+  color: #333333;
+}
+
+img{
+  max-width: 100%;
+}
+
+a:hover{
+  opacity: 0.5;
+}
+
+
+body{
+  color: #333333;
+}
+
+/*header*/
+header{
+  overflow: hidden;
+}
+header nav{
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+nav .profile{
+  padding: 10px 20px;
+  background-color: #383e45;
+  color: #ffffff;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+}
+
+
+header ul{
+  display: flex;
+}
+header ul li{
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+header img{
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/*main*/
+main {
+  width: 100%;
+}
+
+main section {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+main section h2{
+  display: inline-block;
+  font-size: 30px;
+  width: 300px;
+  border-bottom: 1px solid #383e45;
+}
+
+
+
+main section .section1{
+  display: flex;
+  justify-content: center;
+}
+
+main section .section1 img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  align-items: center;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+
+main section .bycicles{
+  margin-bottom: 200px;
+}
+
+main section .bycicles{
+  display: flex;
+  justify-content: center;
+}
+
+main section .bycicles img{
+  width: 300px;
+  
+}
+
+main section .bycicle2 {
+  margin-left: 20px;
+}
+
+main section .bycicle3{
+  margin-left: 20px;
+}
+
+.copyright{
+  text-align: center;
+  font-size: 10px;
+}
+
+@media screen and (max-width:600px){
+  header img{
+    height: calc(100vh-60px);
+    width: 100%;
+  }
+
+  .section1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main section .section1 img{
+    margin-right: 0;
+    
+  }
+
+  .bycicles{
+    flex-direction: column;
+  }
+
+  .bycicle1,
+  .bycicle2,
+  .bycicle3{
+    width: 100%;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+  main section .bycicle2,
+  main section .bycicle3{
+    margin-left: 0;
+  }
+}
